@@ -1,0 +1,241 @@
+body {
+  background-color: bisque;
+  color: #000305;
+  font-size: 87.5%;
+  font-family: Arial, "Lucida Sans Unicode";
+  line-height: 1.5;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: blueviolet;
+}
+
+a:hover,
+a:active {
+  background-color: gray;
+  color: white;
+}
+
+.body {
+  margin: 0 auto;
+  width: 70%;
+  clear: both;
+}
+
+.mainheader nav {
+  background-color: palevioletred;
+  height: 40px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.mainheader nav ul {
+  list-style: none;
+  margin: 0 auto;
+}
+
+.mainheader nav ul li {
+  float: left;
+  display: inline;
+}
+
+.mainheader nav a:link,
+mainheader nav a:visited {
+  color: #fff;
+  display: inline-block;
+  padding: 10px 25px;
+  height: 20px;
+}
+
+.mainheader nav .active a:link,
+mainheader nav a:active,
+.mainheader nav a:hover,
+.mainheader nav .active a:visited {
+  background-color: grey;
+  text-shadow: none;
+}
+
+.mainheader ul li a {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.mainContent {
+  line-height: 25px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.content {
+  width: 65%;
+  float: left;
+  margin-left: 20px;
+}
+
+.topcontent {
+  background-color: #fff;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  padding: 3% 5%;
+  margin-top: 2px;
+  margin-left: 5px;
+}
+.middlecontent {
+  background-color: #fff;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  padding: 3% 5%;
+  margin-top: 2%;
+  margin-left: 5px;
+}
+
+.bottomcontent {
+  background-color: #fff;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  padding: 3% 5%;
+  margin-top: 2%;
+  margin-left: 5px;
+}
+.post-info {
+  font-style: italic;
+  color: #999;
+  font-size: 90%;
+}
+
+.top-sidebar {
+  width: 22%;
+  float: left;
+  background-color: #fff;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  margin-left: 2%;
+  padding: 2% 2.5%;
+  margin-top: 2.5px;
+  margin-bottom: 2%;
+}
+
+.middle-sidebar {
+  width: 22%;
+  float: left;
+  background-color: #fff;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  margin-left: 2%;
+  padding: 2% 2.5%;
+  margin-top: 2px;
+  margin-bottom: 2%;
+}
+
+.bottom-sidebar {
+  width: 22%;
+  height: 47.5%;
+  float: left;
+  background-color: #fff;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  margin-left: 2%;
+  padding: 2% 2.5%;
+  margin-top: 2px;
+  margin-bottom: 2%;
+}
+
+.mainfooter {
+  width: 100%;
+  float: left;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-color: palevioletred;
+  margin: 2% 0;
+}
+
+.mainfooter p {
+  width: 92%;
+  margin: 0 auto;
+  color: white;
+}
+
+@media only screeen and (min-width: 150px) and (max-width: 600px) {
+  .body {
+    width: 90%;
+    font-size: 90%;
+  }
+
+  .mainheader nav {
+    height: 160px;
+  }
+
+  .mainheader nav ul {
+    padding-left: 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .mainheader nav ul li {
+    width: 100pc;
+  }
+
+  .mainheader nav a:link,
+  mainheader nav a:visited {
+    padding: 10px 25px;
+    height: 20px;
+    display: block;
+  }
+  .mainContent {
+    line-height: 30px;
+  }
+
+  .content {
+    width: 100pc;
+    float: left;
+  }
+
+  .topcontent {
+    background-color: #fff;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 3% 5%;
+    margin-top: 2px;
+    margin-bottom: 3%;
+  }
+  .middlecontent {
+    background-color: #fff;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 3% 5%;
+    margin-top: 2%;
+  }
+
+  .bottomcontent {
+    margin-top: 3%;
+  }
+  .post-info {
+    display: none;
+  }
+
+  .top-sidebar,
+  .middle-sidebar,
+  .bottom-sidebar {
+    width: 94%;
+    margin: 2% 0 2% 0;
+    padding: 2% 2.5%;
+  }
+}
